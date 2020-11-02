@@ -32,61 +32,46 @@ h3 {
 
 form {
 	text-align: center;
+	width: 80%;
+	margin: auto;
 }
 
 .formbox_1 {
-	background-color: #f6f6f6;
-	border: 1px #dddddd solid;
-	border-radius: 5px;
-	padding: 5px;
 	text-align: left;
+	
 }
 
 .formbox_1 label {
-	color: #aaaaaa;
 	width: 20%;
 	display:inline-block;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 100%;
-	font-size:12px;
+	font-size:16px;
 }
 
 .formbox_1 input {
-	border: 1px #dddddd solid;
+	border: 1px #efefef solid;
+	background-color: #efefef;
 	border-radius: 5px;
 	padding: 5px;
-	width: 60%;
+	width: 40%;
+	display: inline-block;
 }
 
-.formbox_2 {
-	text-align: center;
-	width: 80%;
-	margin: auto;
+#submit_btn {
+	border: 1px #dddddd solid;
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px;
+	width: 20%;
+	margin-left: 15px;
 }
 
-.formbox_2 p {
+.color_box {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 1%;
 }
 
-.formbox_2 div {
-	text-align: left;
-}
-
-.formbox_2 label {
-	width: 25%;
-	min-height: 20px;
-	display:inline-block;
-	text-align: center;
-	line-height: 100%;
-	font-size:11px;
-}
-
-.formbox_2 span {
-	font-size:12px;
-}
-
-.formbox_error {
-	color: red;
-	font-size:10px;
-	float: left;
-}
