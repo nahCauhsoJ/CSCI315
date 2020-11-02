@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.app {
+	background-color: white;
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	padding: 10px;
+}
+
+h3 {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+.formbox_1 {
+	background-color: #f6f6f6;
+	border: 1px #dddddd solid;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: left;
+}
+
+.formbox_1 label {
+	color: #aaaaaa;
+	width: 20%;
+	display:inline-block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100%;
+	font-size:12px;
+}
+
+.formbox_1 input {
+	border: 1px #dddddd solid;
+	border-radius: 5px;
+	padding: 5px;
+	width: 60%;
+}
+
+.formbox_2 {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+.formbox_2 p {
+}
+
+.formbox_2 div {
+	text-align: left;
+}
+
+.formbox_2 label {
+	width: 25%;
+	min-height: 20px;
+	display:inline-block;
+	text-align: center;
+	line-height: 100%;
+	font-size:11px;
+}
+
+.formbox_2 span {
+	font-size:12px;
+}
+
+.formbox_error {
+	color: red;
+	font-size:10px;
+	float: left;
+}
