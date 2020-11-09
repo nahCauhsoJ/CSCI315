@@ -1,4 +1,4 @@
 Move the src folder from the assignment you like, to the root directory.
 The root directory should contain things like public and Assignment src-s.
 
-Atm, the src folder uses Assignment 20.
+Atm, the src folder uses Assignment 22.
